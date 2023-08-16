@@ -31,8 +31,8 @@ elseif ($_GET["operation"] === "sub"){
 elseif ($_GET["operation"] === "mul"){
   $_GET["result"] = $calculator->multiply($_GET["num1"],$_GET["num2"]);
 }
-elseif ($_GET["operation"] === "sub"){
-  $_GET["result"] = $calculator->subtract($_GET["num1"],$_GET["num2"]);
+elseif ($_GET["operation"] === "div"){
+  $_GET["result"] = $calculator->divide($_GET["num1"],$_GET["num2"]);
 }
 
 }
